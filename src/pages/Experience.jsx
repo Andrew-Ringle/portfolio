@@ -118,8 +118,8 @@ const Experience = ({children}) => {
                   class="icon"
                 />
                 <div>
-                  <h3>C#</h3>
-                  <p>Basic</p>
+                  <h3>MSSQL</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -138,7 +138,7 @@ const Experience = ({children}) => {
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src= {arrow}
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
