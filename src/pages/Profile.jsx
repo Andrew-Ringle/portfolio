@@ -7,8 +7,17 @@ import resume from '../files/Andrew Ringle Resume.pdf'
 
 const Profile = ({children}) => {
    
+  const onButtonClick = () => {
+        const link = document.createElement("a");
+        link.href = resume;
+        link.download = "Andrew Ringle Resume.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };  
     
-    return(
+  
+  return(
         <section id="profile">
       <div class="section__pic-container">
         <img style = {{borderRadius: '25% 10%', border: 'solid black'}}src = {headshot} alt="Andrew Ringle profile" />
@@ -21,12 +30,11 @@ const Profile = ({children}) => {
           <button
             class="btn btn-color-2"
             href = {resume} download target = '_blank'
+            onClick={onButtonClick}
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+          
         </div>
         <div id="socials-container">
           <img

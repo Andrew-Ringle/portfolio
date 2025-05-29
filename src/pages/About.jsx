@@ -3,6 +3,7 @@ import './About.css';
 import headshot from '../images/headshot.jpg'
 import exIcon from '../images/experience.png'
 import eduIcon from '../images/education.png'
+import friends from '../images/friends.png'
 import arrow from '../images/arrow.png'
 import resume from '../files/Andrew Ringle Resume.pdf'
 
@@ -16,7 +17,7 @@ const About = ({children}) => {
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src= {headshot}
+            src= {friends}
             alt="Profile picture"
             class="about-pic"
           />
@@ -44,22 +45,14 @@ const About = ({children}) => {
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Outside of my work as a developer, I'm a passionate hobbyist who loves cooking, reading, gaming, playing pickleball, and staying active through fitness.
+              These interests keep me balanced and energized, while my incredible friends and family provide constant support and motivation. 
+              I'm truly grateful for the strong relationships in my life that inspire me to grow both personally and professionally.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src={arrow}
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+     
     </section>
 
     );

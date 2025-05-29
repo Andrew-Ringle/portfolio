@@ -137,12 +137,7 @@ const Experience = ({children}) => {
           </div>
         </div>
       </div>
-      <img
-        src= {arrow}
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      
     </section>
 
     );
