@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import './mediaqueries.css';
 import exIcon from '../images/experience.png'
 import eduIcon from '../images/education.png'
 import friends from '../images/friends.png'
