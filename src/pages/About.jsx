@@ -1,11 +1,9 @@
 import React from "react";
 import './About.css';
-import headshot from '../images/headshot.jpg'
 import exIcon from '../images/experience.png'
 import eduIcon from '../images/education.png'
 import friends from '../images/friends.png'
-import arrow from '../images/arrow.png'
-import resume from '../files/Andrew Ringle Resume.pdf'
+
 
 const About = ({children}) => {
    
@@ -18,7 +16,7 @@ const About = ({children}) => {
         <div class="section__pic-container">
           <img
             src= {friends}
-            alt="Profile picture"
+            alt="Profile"
             class="about-pic"
           />
         </div>
