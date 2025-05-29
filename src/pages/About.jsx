@@ -43,7 +43,7 @@ const About = ({children}) => {
           </div>
           <div class="text-container">
             <p>
-              Outside of my work as a developer, I'm a passionate hobbyist who loves cooking, reading, gaming, playing pickleball, and staying active through fitness.
+              Outside of my work as a developer, I'm a passionate hobbyist who loves cooking, reading, gaming, playing pickleball, and staying active through weight lifting.
               These interests keep me balanced and energized, while my incredible friends and family provide constant support and motivation. 
               I'm truly grateful for the strong relationships in my life that inspire me to grow both personally and professionally.
             </p>
