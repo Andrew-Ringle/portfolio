@@ -1,5 +1,6 @@
 import React from "react";
 import './Profile.css';
+import './mediaqueries.css';
 import headshot from '../images/headshot.jpg'
 import gitIcon from '../images/github.png'
 import linkIcon from '../images/linkedin.png'

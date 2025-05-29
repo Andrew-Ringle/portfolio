@@ -1,5 +1,6 @@
 import React from "react";
 import './Experience.css';
+import './mediaqueries.css';
 import checkIcon from '../images/checkmark.png'
 
 
