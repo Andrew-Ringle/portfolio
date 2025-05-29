@@ -1,10 +1,7 @@
 import React from "react";
 import './Experience.css';
-import headshot from '../images/headshot.jpg'
 import checkIcon from '../images/checkmark.png'
-import eduIcon from '../images/education.png'
-import arrow from '../images/arrow.png'
-import resume from '../files/Andrew Ringle Resume.pdf'
+
 
 const Experience = ({children}) => {
    

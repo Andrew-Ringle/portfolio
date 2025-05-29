@@ -25,7 +25,7 @@ const Contact = ({children}) => {
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a onClick = {() => window.open('https://linkedin.com/in/andrew-ringle', '_blank').focus()}>LinkedIn</a></p>
+          <p><a href = 'https://linkedin.com/in/andrew-ringle' onClick = {() => window.open('https://linkedin.com/in/andrew-ringle', '_blank').focus()}>LinkedIn</a></p>
         </div>
       </div>
     </section>
